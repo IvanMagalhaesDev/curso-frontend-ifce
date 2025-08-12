@@ -1,0 +1,113 @@
+body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Propriedade font-family */
+            color: #333; /* Propriedade color */
+            text-align: center; /* Propriedade text-align */
+            margin: 0;
+            padding: 0;
+        }
+        
+        #cabecalho {
+            background-color: #076ac1; /* Extra: Cor de fundo do header */
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        #cabecalho h1 {
+            color: white;
+            margin: 0;
+        }
+        
+        #cabecalho img {
+            border-radius: 0%;
+            margin-top: 10px;
+            width: 32px;
+            height: 30px;
+        }
+        
+        .secao-apresentacao {
+            margin: 40px 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .secao-formulario {
+            margin: 40px 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .secao-formulario h2 {
+            color: #076ac1;
+            margin-bottom: 20px;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        form label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            align-self: flex-start;
+            color: #333;
+        }
+        
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            transition: border-color 0.3s ease;
+        }
+        
+        form input[type="text"]:focus,
+        form input[type="email"]:focus,
+        form textarea:focus {
+            border-color: #076ac1;
+            outline: none;
+            box-shadow: 0 0 5px rgba(7, 106, 193, 0.3);
+        }
+        
+        form textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        form input[type="submit"] {
+            background-color: #076ac1;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        form input[type="submit"]:hover {
+            background-color: #055a9e;
+        }
+        
+        #rodape {
+            background-color: #000000;
+            color: white;
+            padding: 10px;
+            position: fixed; /* Extra: Position para fixar o footer no final */
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
